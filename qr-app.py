@@ -123,5 +123,8 @@ if st.button("Generate QR Code", type="primary", use_container_width=True):
             except Exception as e:
                 st.error(f"Generation failed: {str(e)}")
 
-st.markdown("---")
-st.caption("Streamlit • python-qrcode • Pillow | High error correction recommended with logo")
+##########
+# footer #
+##########
+
+st.markdown('---')
