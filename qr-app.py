@@ -4,7 +4,16 @@ import qrcode
 from io import BytesIO
 from PIL import Image
 
-st.set_page_config(page_title="QR Code Generator + Logo", page_icon="🖼️", layout="centered")
+###########################################
+# page config - must be first st command! #
+###########################################
+
+st.set_page_config(
+    page_title='QR-Code Generator',
+    page_icon='https://www.seoseb.de/artikel/media/files/favicon-16.png',
+    layout='wide',
+    initial_sidebar_state='closed'
+)
 
 st.title("QR Code Generator with Optional Logo")
 st.write("Enter text/URL and optionally upload a square logo (PNG with transparency works best)")
