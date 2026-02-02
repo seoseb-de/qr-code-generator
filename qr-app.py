@@ -12,7 +12,7 @@ st.set_page_config(
     page_title='QR-Code Generator',
     page_icon='https://www.seoseb.de/artikel/media/files/favicon-16.png',
     layout='wide',
-    initial_sidebar_state='closed'
+    initial_sidebar_state='collapsed'
 )
 
 st.title("QR Code Generator with Optional Logo")
